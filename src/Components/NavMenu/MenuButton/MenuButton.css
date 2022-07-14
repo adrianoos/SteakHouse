@@ -6,4 +6,9 @@
     line-height: 32px;
     list-style-type: none;
     color: var(--MainFontColor);
+    margin: 0px 10px;
+    cursor: pointer;
 }
+
+
+

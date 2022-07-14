@@ -1,19 +1,17 @@
-
 html {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
 }
 
 body {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
 }
 
 :root {
 	--MainBackGroundColor: #FFFFFF;
+  --MainButtonsColor: #FFFFFF;
   --MainFontColor:#000000;
-	margin: 0;
-	padding: 0;
 	background-color: var(--MainBackGroundColor);
 }
 
@@ -22,8 +20,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 100vw;
-  height: 100vh;
   padding: 0px;
   margin: 0px;
+  width: 100vw;
+  min-width: 1500px;
 }

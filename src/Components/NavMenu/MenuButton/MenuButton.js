@@ -3,8 +3,8 @@ import './MenuButton.css';
 
 const MenuButton = ({displayName}) => {
   return (
-    <li className='MenuButtonItem'>{displayName}</li>
+    <div className='MenuButtonItem'>{displayName}</div>
   )
 }
 
-export default MenuButton
+export default MenuButton;

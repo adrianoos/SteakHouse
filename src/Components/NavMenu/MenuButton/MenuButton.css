@@ -1,0 +1,9 @@
+.MenuButtonItem {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    list-style-type: none;
+    color: var(--MainFontColor);
+}

@@ -9,6 +9,14 @@ body {
   margin: 0px;
 }
 
+:root {
+	--MainBackGroundColor: #FFFFFF;
+  --MainFontColor:#000000;
+	margin: 0;
+	padding: 0;
+	background-color: var(--MainBackGroundColor);
+}
+
 .App {
   display: flex;
   flex-direction: column;

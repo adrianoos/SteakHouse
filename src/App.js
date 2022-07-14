@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <NavMenu />
-      <Slider />
-      <LogoBar />
+        <Slider />
+        <LogoBar />
       <AdsBoxes />
     </div>
   );

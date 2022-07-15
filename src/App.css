@@ -13,6 +13,7 @@ body {
   --MainButtonsColor: #FFFFFF;
   --MainFontColor:#000000;
   --MainFontType: 'SofiaPro';
+  --SecondFontType: 'Roboto';
 	background-color: var(--MainBackGroundColor);
 }
 

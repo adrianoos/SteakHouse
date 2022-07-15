@@ -12,6 +12,7 @@ body {
 	--MainBackGroundColor: #FFFFFF;
   --MainButtonsColor: #FFFFFF;
   --MainFontColor:#000000;
+  --MainFontType: 'SofiaPro';
 	background-color: var(--MainBackGroundColor);
 }
 
@@ -24,4 +25,19 @@ body {
   margin: 0px;
   width: 100vw;
   min-width: 1500px;
+}
+
+@font-face {
+  font-family: "SofiaPro";
+  src: local("SofiaPro"),
+    url("./Components/assets/SofiaPro.ttf") format("truetype");
+  font-weight: 400;
+}
+
+
+@media screen and (max-width: 500px) {
+	/*MOBILE SECTION*/
+  .App {
+    min-width: 320px;
+  }
 }

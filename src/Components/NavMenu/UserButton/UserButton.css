@@ -5,15 +5,71 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0px 10px;
+}
+
+.UserButtonMainContainer :hover{
+    transform: scale(1.05);
+}
+
+.UserButtonMainContainerRedBackGround {
+    width: 97px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #920303;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.UserButtonMainContainerRedBackGround :hover{
+    transform: scale(1.05);
 }
 
 .userButtonText {
-    font-family: 'Sofia Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 14px;
-/* identical to box height */
+    font-family: var(--MainFontType);
+    color: var(--MainFontColor);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin: 5px;
+    text-decoration: none;
+  }
 
-text-align: center;
+  .userButtonTextOrder {
+    font-family: var(--MainFontType);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin: 5px;
+    color: aliceblue;
+    text-decoration: none;
+  }
+
+.UserButtonIcon {
+    width: 18px;
+    height: 12.8px;
+}
+
+@media screen and (max-width: 500px) {
+	/*MOBILE SECTION*/
+
+    .UserButtonIcon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .userButtonText {
+        font-size: 16px;
+      }
+
+    .userButtonTextOrder {
+       font-size: 16px;
+      }
 }

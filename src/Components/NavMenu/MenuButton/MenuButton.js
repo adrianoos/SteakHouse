@@ -3,7 +3,7 @@ import './MenuButton.css';
 
 const MenuButton = ({displayName}) => {
   return (
-    <div className='MenuButtonItem'>{displayName}</div>
+    <a href='/' className='MenuButtonItem'>{displayName}</a>
   )
 }
 

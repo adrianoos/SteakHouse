@@ -1,13 +1,25 @@
 .MenuButtonItem {
-    font-family: 'Sofia Pro';
+    font-family: 'SofiaPro';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 32px;
-    list-style-type: none;
     color: var(--MainFontColor);
     margin: 0px 10px;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.MenuButtonItem:hover {
+   transform: scale(1.05);
+   text-shadow: 2px 2px 2px rgba(197, 197, 197, 0.696);
+}
+
+@media screen and (max-width: 500px) {
+	/*MOBILE SECTION*/
+    .MenuButtonItem {
+        font-size: 18px;
+    }
 }
 
 

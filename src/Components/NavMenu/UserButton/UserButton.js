@@ -10,25 +10,24 @@ const UserButton = ({buttonProps}) => {
  const displayButtonImage = (buttonProps) => {
     if (buttonProps.icon === 'person') {
         return (
-            <img src={personLogo} alt='person'></img>
+            <img className='UserButtonIcon' src={personLogo} alt='person'></img>
           )
     } else if (buttonProps.icon === 'cart') {
         return (
-            <img src={cartLogo} alt='cart'></img>
+            <img className='UserButtonIcon'  src={cartLogo} alt='cart'></img>
           )
     } else if (buttonProps.icon === 'menu') {
         return (
-            <img src={orderLogo} alt='menu'></img>
+            <img className='UserButtonIcon' src={orderLogo} alt='menu'></img>
           )
     }
-
  };
 
 
   return (
-    <div className='UserButtonMainContainer'>
+    <div className={buttonProps.name === 'Zamów' ? 'UserButtonMainContainerRedBackGround' : 'UserButtonMainContainer'}>
        {displayButtonImage(buttonProps)}
-       <p className='userButtonText'>{buttonProps.name}</p>
+       <a href='/' className={buttonProps.name === 'Zamów' ? 'userButtonTextOrder' : 'userButtonText'}>{buttonProps.name}</a>
     </div>
   )
 }

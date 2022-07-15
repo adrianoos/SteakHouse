@@ -15,7 +15,7 @@ const NavMenu = () => {
           {MenuPositions.map(position => <MenuButton key={position} displayName={position}/>)}
         </div>
         <div className='UserButtonsContainer'>
-          {userButtons.map(button => <UserButton buttonProps={button}/>)}
+          {userButtons.map(button => <UserButton key={button.name} buttonProps={button}/>)}
         </div>
     </div>
   )

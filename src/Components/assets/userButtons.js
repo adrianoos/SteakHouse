@@ -1,7 +1,7 @@
 
 
-const userButtons = [{name: 'Moje Konto', backgroundColor: '#FFFFFF', icon: 'person'},
-                     {name: 'Koszyk', backgroundColor: '#FFFFFF', icon: 'cart'},
-                     {name: 'Zamów', backgroundColor: '#920303', icon: 'menu'}]
+const userButtons = [{name: 'Moje Konto', icon: 'person'},
+                     {name: 'Koszyk', icon: 'cart'},
+                     {name: 'Zamów', icon: 'menu'}]
 
 export default userButtons;

@@ -43,7 +43,7 @@
 }
 
 .AddBoxInfoText {
-    font-family: var(--MainFontType);
+    font-family: var(--SecondFontType);
     color: var(--MainBackGroundColor);
     font-style: normal;
     font-weight: 400;

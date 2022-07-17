@@ -84,6 +84,10 @@
     border-radius: 10px;
   }
 
+  .SliderOrderLink:hover {
+    transform: scale(1.05);
+  }
+
   @media screen and (max-width: 500px) {
 	/*MOBILE SECTION*/
     .sampleSlideMainContainer {

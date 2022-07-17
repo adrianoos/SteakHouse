@@ -5,6 +5,7 @@ import 'swiper/css';
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
 import meatFoto from '../assets/meatAndKnife.png';
+import BigOrderButton from '../BigOrderButton/BigOrderButton';
 
 
 
@@ -17,7 +18,7 @@ const Slider = () => {
             <div className='SlideInfoContainer'>
              <h1 className='FoodInfoHeader'><span className='FoodHeaderDiscountInfo'>Rabat 10%</span> na pierwsze zamówienie</h1>
               <p className='FoodInfoText'>Do 20 stycznia złóż zamówienie na stronie i skorzystaj z promocji -10%. Spiesz się, czas trwania promocji do końca lutego.</p>
-              <a className='SliderOrderLink' href='/'>Zamów Online</a>
+              <BigOrderButton />
             </div>
             <div className='SlidePictureContainer'>
               <img src={meatFoto} alt='meatPhoto'/>

@@ -43,4 +43,8 @@ body {
   .App {
     min-width: 320px;
   }
+
+  .App::-webkit-scrollbar {
+    width: 0px;
+  }
 }

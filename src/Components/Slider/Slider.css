@@ -68,26 +68,6 @@
     line-height: 25px;
   }
 
-  .SliderOrderLink {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 190px;
-    height: 40px;
-    font-family: var(--MainFontType);
-    color: var(--MainBackGroundColor);
-    font-weight: 400;
-    font-size: 14.4px;
-    line-height: 14px;
-    text-decoration: none;
-    background-color: #920303;
-    border-radius: 10px;
-  }
-
-  .SliderOrderLink:hover {
-    transform: scale(1.05);
-  }
-
   @media screen and (max-width: 500px) {
 	/*MOBILE SECTION*/
     .sampleSlideMainContainer {

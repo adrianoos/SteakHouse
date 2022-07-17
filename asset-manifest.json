@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.f038c9af.css",
-    "main.js": "/static/js/main.0bbc6e07.js",
-    "static/media/meatAndKnife.png": "/static/media/meatAndKnife.8648bbac484b2d00715a.png",
-    "static/media/peopleHandsAndPlates.png": "/static/media/peopleHandsAndPlates.63c7f3982421c00225eb.png",
-    "static/media/SofiaPro.ttf": "/static/media/SofiaPro.1410897cb2cbc3c32e41.ttf",
-    "static/media/aplikacja.png": "/static/media/aplikacja.1f15850641f6ca1c6d37.png",
-    "static/media/huawei.svg": "/static/media/huawei.ace88782ebb1ba12ce232eb929dbb5fa.svg",
-    "static/media/koszyk.svg": "/static/media/koszyk.88589d69881917a33813a2f8f930132a.svg",
-    "static/media/appStore.svg": "/static/media/appStore.a22ebffd4d16073271424613f6b793a1.svg",
-    "static/media/playStore.svg": "/static/media/playStore.b5389713720cefa7b64135a0bfa9d721.svg",
-    "static/media/mojekonto.svg": "/static/media/mojekonto.1d159b5267323180cafd8817d06f78fe.svg",
-    "static/media/zamow.svg": "/static/media/zamow.d090291f8a57afc35d5b6b331ecdaef2.svg",
-    "index.html": "/index.html",
-    "main.f038c9af.css.map": "/static/css/main.f038c9af.css.map",
-    "main.0bbc6e07.js.map": "/static/js/main.0bbc6e07.js.map"
+    "main.css": "/SteakHouse/static/css/main.60e15b23.css",
+    "main.js": "/SteakHouse/static/js/main.9d19497d.js",
+    "static/media/meatAndKnife.png": "/SteakHouse/static/media/meatAndKnife.8648bbac484b2d00715a.png",
+    "static/media/peopleHandsAndPlates.png": "/SteakHouse/static/media/peopleHandsAndPlates.63c7f3982421c00225eb.png",
+    "static/media/SofiaPro.ttf": "/SteakHouse/static/media/SofiaPro.1410897cb2cbc3c32e41.ttf",
+    "static/media/aplikacja.png": "/SteakHouse/static/media/aplikacja.1f15850641f6ca1c6d37.png",
+    "static/media/huawei.svg": "/SteakHouse/static/media/huawei.ace88782ebb1ba12ce232eb929dbb5fa.svg",
+    "static/media/koszyk.svg": "/SteakHouse/static/media/koszyk.88589d69881917a33813a2f8f930132a.svg",
+    "static/media/appStore.svg": "/SteakHouse/static/media/appStore.a22ebffd4d16073271424613f6b793a1.svg",
+    "static/media/playStore.svg": "/SteakHouse/static/media/playStore.b5389713720cefa7b64135a0bfa9d721.svg",
+    "static/media/mojekonto.svg": "/SteakHouse/static/media/mojekonto.1d159b5267323180cafd8817d06f78fe.svg",
+    "index.html": "/SteakHouse/index.html",
+    "static/media/zamow.svg": "/SteakHouse/static/media/zamow.d090291f8a57afc35d5b6b331ecdaef2.svg",
+    "main.60e15b23.css.map": "/SteakHouse/static/css/main.60e15b23.css.map",
+    "main.9d19497d.js.map": "/SteakHouse/static/js/main.9d19497d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f038c9af.css",
-    "static/js/main.0bbc6e07.js"
+    "static/css/main.60e15b23.css",
+    "static/js/main.9d19497d.js"
   ]
 }

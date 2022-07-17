@@ -19,7 +19,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #920303;
+    background-color: var(--OrderButtonBackGroundColor);
     border-radius: 10px;
     margin: 0px 10px;
 }
@@ -48,7 +48,7 @@
     line-height: 14px;
     text-align: center;
     margin: 5px;
-    color: aliceblue;
+    color: var(--MainBackGroundColor);
     text-decoration: none;
   }
 

@@ -12,6 +12,7 @@ body {
 	--MainBackGroundColor: #FFFFFF;
   --MainButtonsColor: #FFFFFF;
   --MainFontColor:#000000;
+  --OrderButtonBackGroundColor:#920303;
   --MainFontType: 'SofiaPro';
   --SecondFontType: 'Roboto';
 	background-color: var(--MainBackGroundColor);
@@ -24,7 +25,8 @@ body {
   justify-content: flex-start;
   padding: 0px;
   margin: 0px;
-  width: 100vw;
+  width: 97vw;
+  height: auto;
   min-width: 1500px;
 }
 
